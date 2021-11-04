@@ -1,29 +1,46 @@
-.search-container{
-    background-color: rgba(0, 0, 0, 0.85);
-    text-align: center;
-    line-height: 40px;
+.search-container {
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  line-height: 40px;
 }
-.search-container input{
-    width: 75%;
+.search-container input {
+  width: 75%;
 }
-.shop-container{
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-}
-.product-container{
-    border-right: 1px solid lightgray;
-    margin-right: 5px;
-    margin-left: 50px;
+.shop-container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
 }
 
-.pagination{
-    margin: 30px;
+.cart-container {
+  margin-left: 10px;
+  border-left: 2px solid rgb(255, 230, 0);
 }
-.pagination button{
-    padding: 0 10px;
-    margin-right: 20px;
+
+.cart-container h2 {
+  margin-top: 50px;
+  line-height: 50px;
+  font-family: sans-serif;
 }
-.pagination .selected{
-    background-color: rgb(43, 43, 224);
-    color: white;
+ .pagination {
+  padding: 0px 30px;
+ 
+}
+.pagination button {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 20px;
+  padding: 3px 15px;
+  background-color: rgb(75, 30, 30);
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(255, 196, 0);
+  outline: none;
+  border: 2px solid rgb(212, 0, 255);
+  border-radius: 7px;
+}
+
+.pagination .selected {
+  background-color: red;
+  color: #fff;
+  border: 2px solid rgb(0, 4, 255);
 }

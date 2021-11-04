@@ -1,0 +1,26 @@
+.cart h2 {
+  color: rgb(255, 0, 0);
+  font-family: cursive !important;
+}
+
+.cart h4{
+    color:rgb(255, 255, 255);
+}
+
+.cart {
+ margin: auto;
+  width: 250px;
+  height: 400px;
+  background-color: rgb(2, 0, 92);
+  padding: 0px 20px;
+  border-radius:3px;
+}
+
+.cart p {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Geneva;
+
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}

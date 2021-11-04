@@ -18,24 +18,19 @@ const Login = () => {
     }
 
     return (
-        <div className="login-form">
-            <div>
-                <h2>Login</h2>
-                <form>
-                    <input type="email" name="" id="" placeholder="Your Email" />
-                    <br />
-                    <input type="password" name="" id="" />
-                    <br />
-                    <input type="submit" value="Submit" />
-                </form>
-                <p>new to ema-john website? <Link to="/register">Create Account</Link></p>
-                <div>-------or----------</div>
-                <button
-                    className="btn-regular"
-                    onClick={handleGoogleLogin}
-                >Google Sign In</button>
-            </div>
-        </div>
+        <div className="login-input">
+      <div className="login">
+        <h2>Login</h2>
+        <form>
+          <input type="Email" placeholder="Enter Your Email" /> <br />
+          <input type="password" placeholder="Enter Your Password" /> <br />
+          <input className="btn" type="Submit" value="submit" />
+        </form>
+        <p>New to ema-john ? <Link to="/register">Creat Account</Link></p> <br />
+        <div>---------or--------</div>
+        <button onClick={handleGoogleLogin} className="btn">Google Sing In</button>
+      </div>
+    </div>
     );
 };
 
