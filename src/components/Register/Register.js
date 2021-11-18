@@ -1,53 +1,52 @@
-import React from "react";
-import { useHistory, useLocation } from "react-router";
-import { NavLink } from "react-router-dom";
-import useAuth from "../../hooks/useAuth";
-
+import { useState } from "react";
+import { NavLink, useHistory} from "react-router-dom";
+import useAuth from "./../../hooks/useAuth";
+import {Button} from "react-bootstrap";
 
 const Register = () => {
-  const { clickToGoogle } = useAuth();
-  const location = useLocation();
+  const [loginData, setLoginData] = useState({});
   const history = useHistory();
-  const redirect_uri = location.state?.from || "/";
+  
+  const { user, registerUser, authError} = useAuth();
 
-  const googleLogin = () => {
-    clickToGoogle().then((result) => {
-      history.push(redirect_uri);
-    });
+  const handleOnBlur = e => {
+    const field = e.target.name;
+    const value = e.target.value;
+    const newLoginData = { ...loginData };
+    newLoginData[field] = value;
+    setLoginData(newLoginData);
   };
+  const handleLoginSubmit = e => {
+        if (loginData.password !== loginData.password2) {
+      alert("Your password did not match");
+      return;
+    };
 
+    registerUser(loginData.email, loginData.password, loginData.name, history);
+    e.preventDefault();
+  };
   return (
-    <div className="login-input">
     <div className="login">
-      <h2>Create Account</h2>
-      <from onSubmit="">
-        <input type="email" name="" id="" placeholder="Enter Your Email" />{" "}
-        <br />
-        <input
-          type="password"
-          name=""
-          id=""
-          placeholder="Enter your password"
-        />
-        <br />
-        <input
-          type="password"
-          name=""
-          id=""
-          placeholder="Re-enter your password"
-        />
-        <br />
-        <input className="btn" type="submit" value="submit" />
-      </from>
-      <p>
-        Already have an account? <NavLink to="/login">Login</NavLink>
-      </p>
-      <div>---------or--------</div>
-      <button onClick={googleLogin} className="btn">
-        Google Sing In
-      </button>
+      <h1 className=" text-primary mt-5 pb-3 gum">Please Register</h1>
+      <form onSubmit={handleLoginSubmit}>
+          <input type="text" name="name" id=""  onBlur={handleOnBlur} placeholder="Enter Your Name" /> 
+        
+        <input type="email" name="email" id=""  onBlur={handleOnBlur} placeholder="Enter Your Email" /><br />
+         
+        <input type="password" name="password"  onBlur={handleOnBlur} id="" placeholder="Enter Your Password" /><br />
+     
+      <input type="password" name="password2" id=""  onBlur={handleOnBlur} placeholder="Confirm Your Password" /><br />
+
+         <input type="submit" value="Register" /> <br /> <br />
+          <NavLink to="/login">
+            <Button className=" mt-5">Already Registered? Please Login</Button>
+          </NavLink>
+        </form>
+      {user?.email && 
+        <alert severity="success">User Created Successfully !!!</alert>
+      }
+      {authError && <alert severity="error">{authError}</alert>}
     </div>
-  </div>
   );
 };
 

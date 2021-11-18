@@ -1,34 +1,23 @@
-.login-input{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    }
+.login input {
+  width: 150px;
+  margin-bottom: 20px;
+  padding: 8px 20px;
+  border: 2px solid gold;
+  border-radius: 18px;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #ff00ff;
+  color: #fff;
+  font-weight: 700;
+  border: none;
+}
+
+.login{
+  display: block;
+ text-align: center;
+ margin-top: 30px;
   
-    .login h2 {
-      font-size: 45px;
-      font-family: auto;
-      color: #7a6217;
-      margin-bottom: 20px;
-  }
   
-  .login input {
-      padding: 5px 18px;
-      margin: 10px;
-      font-family: auto;
-      letter-spacing: 1px;
-      border: 2px solid #009688;
-  }
-  
-  p a {
-    color: blue;
-    font-size: 25px;
-    font-family: auto;
-    font-weight: bold;
-    margin-left: 9px;
-  }
-  
-  p {
-    font-weight: 700;
-    color: blueviolet;
-  }
+}

@@ -42,7 +42,7 @@ function App() {
               <Login></Login>
             </Route>
             <PrivateRoute path="/orders">
-<Orders></Orders>
+           <Orders></Orders>
             </PrivateRoute>
             <Route path="/register">
               <Register></Register>
