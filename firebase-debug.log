@@ -1,13 +1,13 @@
-[debug] [2021-11-18T16:49:48.856Z] ----------------------------------------------------------------------
-[debug] [2021-11-18T16:49:48.859Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-11-18T16:49:48.860Z] CLI Version:   9.22.0
-[debug] [2021-11-18T16:49:48.860Z] Platform:      win32
-[debug] [2021-11-18T16:49:48.860Z] Node Version:  v14.17.0
-[debug] [2021-11-18T16:49:48.860Z] Time:          Thu Nov 18 2021 22:49:48 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-18T16:49:48.861Z] ----------------------------------------------------------------------
+[debug] [2021-11-18T17:07:22.337Z] ----------------------------------------------------------------------
+[debug] [2021-11-18T17:07:22.339Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-18T17:07:22.339Z] CLI Version:   9.22.0
+[debug] [2021-11-18T17:07:22.339Z] Platform:      win32
+[debug] [2021-11-18T17:07:22.339Z] Node Version:  v14.17.0
+[debug] [2021-11-18T17:07:22.340Z] Time:          Thu Nov 18 2021 23:07:22 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-18T17:07:22.340Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-18T16:49:48.916Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-18T16:49:48.917Z] > authorizing via signed-in user (sumonshakder1996@gmail.com)
+[debug] [2021-11-18T17:07:22.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-18T17:07:22.390Z] > authorizing via signed-in user (sumonshakder1996@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -31,11 +31,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using ema-john-simple-e9bd8. 
-[debug] [2021-11-18T16:49:59.184Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 [none]
-[debug] [2021-11-18T16:49:59.687Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 403
-[debug] [2021-11-18T16:49:59.687Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-18T16:49:59.687Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-18T16:49:59.874Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-18T17:07:31.519Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 [none]
+[debug] [2021-11-18T17:07:31.991Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 403
+[debug] [2021-11-18T17:07:31.991Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-18T17:07:31.992Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-18T17:07:32.346Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
@@ -45,16 +45,16 @@ Before we get started, keep in mind:
     at async init (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
 [error] 
 [error] Error: Failed to get Firebase project ema-john-simple-e9bd8. Please make sure the project exists and your account has permission to access it.
-[debug] [2021-11-18T16:50:25.696Z] ----------------------------------------------------------------------
-[debug] [2021-11-18T16:50:25.699Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2021-11-18T16:50:25.699Z] CLI Version:   9.22.0
-[debug] [2021-11-18T16:50:25.699Z] Platform:      win32
-[debug] [2021-11-18T16:50:25.699Z] Node Version:  v14.17.0
-[debug] [2021-11-18T16:50:25.700Z] Time:          Thu Nov 18 2021 22:50:25 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-18T16:50:25.700Z] ----------------------------------------------------------------------
+[debug] [2021-11-18T17:07:59.702Z] ----------------------------------------------------------------------
+[debug] [2021-11-18T17:07:59.704Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-11-18T17:07:59.704Z] CLI Version:   9.22.0
+[debug] [2021-11-18T17:07:59.704Z] Platform:      win32
+[debug] [2021-11-18T17:07:59.704Z] Node Version:  v14.17.0
+[debug] [2021-11-18T17:07:59.705Z] Time:          Thu Nov 18 2021 23:07:59 GMT+0600 (Bangladesh Standard Time)
+[debug] [2021-11-18T17:07:59.705Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2021-11-18T16:50:25.754Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-18T16:50:25.754Z] > authorizing via signed-in user (sumonshakder1996@gmail.com)
+[debug] [2021-11-18T17:07:59.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-11-18T17:07:59.764Z] > authorizing via signed-in user (sumonshakder1996@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -78,11 +78,11 @@ Before we get started, keep in mind:
 [info] but for now we'll just set up a default project.
 [info] 
 [info] i  .firebaserc already has a default project, using ema-john-simple-e9bd8. 
-[debug] [2021-11-18T16:50:37.672Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 [none]
-[debug] [2021-11-18T16:50:38.178Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 403
-[debug] [2021-11-18T16:50:38.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-18T16:50:38.179Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-18T16:50:38.439Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-18T17:08:34.347Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 [none]
+[debug] [2021-11-18T17:08:35.020Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 403
+[debug] [2021-11-18T17:08:35.021Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-11-18T17:08:35.021Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-11-18T17:08:35.356Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at module.exports (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
     at Client.doRequest (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
     at processTicksAndRejections (internal/process/task_queues.js:95:5)
@@ -90,47 +90,5 @@ Before we get started, keep in mind:
     at async Object.getFirebaseProject (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
     at async Object.doSetup [as project] (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
     at async init (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
-[error] 
-[error] Error: Failed to get Firebase project ema-john-simple-e9bd8. Please make sure the project exists and your account has permission to access it.
-[debug] [2021-11-18T16:51:24.431Z] ----------------------------------------------------------------------
-[debug] [2021-11-18T16:51:24.435Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
-[debug] [2021-11-18T16:51:24.435Z] CLI Version:   9.22.0
-[debug] [2021-11-18T16:51:24.436Z] Platform:      win32
-[debug] [2021-11-18T16:51:24.436Z] Node Version:  v14.17.0
-[debug] [2021-11-18T16:51:24.437Z] Time:          Thu Nov 18 2021 22:51:24 GMT+0600 (Bangladesh Standard Time)
-[debug] [2021-11-18T16:51:24.437Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2021-11-18T16:51:24.493Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2021-11-18T16:51:24.493Z] > authorizing via signed-in user (sumonshakder1996@gmail.com)
-[debug] [2021-11-18T16:51:24.493Z] [iam] checking project ema-john-simple-e9bd8 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2021-11-18T16:51:24.495Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2021-11-18T16:51:24.495Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-11-18T16:51:24.722Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 18 Nov 2021 16:51:23 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-18T16:51:24.737Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ema-john-simple-e9bd8:testIamPermissions  
- {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2021-11-18T16:51:26.019Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 18 Nov 2021 16:51:25 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1102","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-18T16:51:26.020Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project ema-john-simple-e9bd8:
-
-  firebase.projects.get
-  firebasehosting.sites.update
-[debug] [2021-11-18T16:51:26.021Z] > refreshing access token with scopes: []
-[debug] [2021-11-18T16:51:26.021Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2021-11-18T16:51:26.229Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Thu, 18 Nov 2021 16:51:25 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2021-11-18T16:51:26.241Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 [none]
-[debug] [2021-11-18T16:51:26.691Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 403
-[debug] [2021-11-18T16:51:26.691Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ema-john-simple-e9bd8 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
-[debug] [2021-11-18T16:51:26.691Z] HTTP Error: 403, The caller does not have permission
-[debug] [2021-11-18T16:51:26.879Z] FirebaseError: HTTP Error: 403, The caller does not have permission
-    at module.exports (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
-    at Client.doRequest (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
-    at processTicksAndRejections (internal/process/task_queues.js:95:5)
-    at async Client.request (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
-    at async Object.getFirebaseProject (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
-    at async Object.getDefaultHostingSite (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\getDefaultHostingSite.js:8:21)
-    at async requireHostingSite (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\requireHostingSite.js:9:18)
-    at async Object.fn (C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\commands\deploy.js:73:9)
-    at async C:\Users\DELL\AppData\Roaming\npm\node_modules\firebase-tools\lib\command.js:188:17
 [error] 
 [error] Error: Failed to get Firebase project ema-john-simple-e9bd8. Please make sure the project exists and your account has permission to access it.

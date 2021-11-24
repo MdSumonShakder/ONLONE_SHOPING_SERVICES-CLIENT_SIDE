@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAA3n2-f8fvmniPw9odkxC7ov_8Fv1eUE4",
-    authDomain: "online-shop-60b42.firebaseapp.com",
-    projectId: "online-shop-60b42",
-    storageBucket: "online-shop-60b42.appspot.com",
-    messagingSenderId: "750043523309",
-    appId: "1:750043523309:web:75f16647c731dd10db84e4"
+    apiKey: "AIzaSyA7HAxq9lC6nuH2a_irjiCZEGpbeOCYqYI",
+    authDomain: "online-shop-5c8a6.firebaseapp.com",
+    projectId: "online-shop-5c8a6",
+    storageBucket: "online-shop-5c8a6.appspot.com",
+    messagingSenderId: "456960221008",
+    appId: "1:456960221008:web:9027cdf832829c67825655"
   };
   
   export default firebaseConfig;

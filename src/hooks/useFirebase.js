@@ -74,21 +74,21 @@ const useFirebase = () => {
     }
 
     // observe whether user auth state changed or not
-    useEffect(() => {
-        const unsubscribe = onAuthStateChanged(auth, (user) => {
-            if (user) {
+    // useEffect(() => {
+    //     const unsubscribe = onAuthStateChanged(auth, (user) => {
+    //         if (user) {
                
-                getIdToken(user)
-                .then(idToken=>localStorage.setItem('idToken',idToken));
-                setUser(user);
-            }
-            else {
-                setUser({});
-            }
-            setIsLoading(false);
-        });
-        return () => unsubscribe;
-    }, [])
+    //             getIdToken(user)
+    //             .then(idToken=>localStorage.setItem('idToken',idToken));
+    //             setUser(user);
+    //         }
+    //         else {
+    //             setUser({});
+    //         }
+    //         setIsLoading(false);
+    //     });
+    //     return () => unsubscribe;
+    // }, [])
 
     return {
         user,
